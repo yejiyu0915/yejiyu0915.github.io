@@ -238,7 +238,7 @@ h2 em {
     border-bottom: 0.1em solid;
     transform: rotate(-45deg);
     left: 0.3em;
-    top: 0.55em;
+    top: 0.6em;
 }
 #todo-list input[type="checkbox"] + label::after {
     content: none;
