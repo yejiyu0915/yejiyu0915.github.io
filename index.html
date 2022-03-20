@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Momentum.</title>
+</head>
+<body>
+    <div id="login" class="hide">
+        <div id="login-box">
+            <form class="hidden" id="login-form">
+                <h1>Momentum.</h1>
+                <p>Before recording your life, <em>Let me know your name.</em></p>
+                <div>
+                    <input type="text" required maxlength="15" placeholder="What is your name?">
+                    <input type="submit" value="Enter">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="wrap">
+        <button id="bg-btn">&#10132; CHANGE BG</button>
+        <main>
+            <h2 id="greeting"></h2>
+            <div id="weather">
+                <span class="weather_info"></span>
+                <span class="city"></span>
+                <span class="country"></span>
+            </div>
+            <p id="clock">00:00:00</p>
+            <div id="quote"></div>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Write a To Do" required>
+            </form>
+            <ul id="todo-list">
+            </ul>
+        </main>
+    </div>
+    <script src="basic.js"></script>
+</body>
+</html>
